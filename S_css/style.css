@@ -1,0 +1,150 @@
+/* 公共样式 */
+html {
+    color: #333;
+}
+body {
+    height: 3000px;
+    color: #bbb;
+}
+.w {
+    width: 1200px;
+    margin: 0 auto;
+}
+.fl {
+    float: left;
+}
+.fr {
+    float: right;
+}
+a {
+    color: #9b9ea0;
+    font-size:12px;
+}
+/* s_header star */
+/* 背景图片部分 */
+.s_header {
+    background: url(../S_images/1.jpg) no-repeat center center;
+    background-size: 100%;
+    transform: translate(0, 10px);
+    height: 466px;
+}
+/* 安全部分 */
+.s_cont h1 {
+    font-size: 34px;
+    color: #fff;
+    padding-top: 85px;
+}
+/* 三更部分 */
+.s_cont p {
+    font-size: 12px;
+    padding-top: 26px;
+}
+/* 相关链接部分 */
+.s_related_top {
+    margin-top: 56px;
+    font-size: 12px;
+    width: 100%;
+    height: 35px;
+    line-height: 35px;
+    background-color: rgba(255, 255, 255, .1);
+}
+.s_related_top span {
+    padding-left: 18px;
+}
+.s_related_top li {
+    float: left;
+    padding: 0 20px;
+    position: relative;
+}
+.s_related_top li:after {
+    content: '';
+    position: absolute;
+    width: 1px;
+    height: 12px;
+    background: #bbb;
+    top: 12px;
+    right: 3px;
+}
+.s_related_top li:last-child:after {
+    display: none;
+}
+/* 最新活动部分 */
+.s_related_bottom {
+    width: 100%;
+    height: 85px;
+    margin-top: 2px;
+    background-color: rgba(255, 255, 255, .1);
+    font-size: 12px;
+    padding-top: 18px;
+    overflow: hidden;
+}
+.s_new {
+    margin-right: 110px;
+    margin-left: 22px;
+}
+.s_safe {
+    margin-left: 80px;
+}
+.s_new_left,
+.s_product_left,
+.s_safe_left {
+    margin-right: 12px;
+}
+.s_cont {
+    height: 466px;
+}
+.s_cont .s_related_bottom p {
+    padding: 0;
+    margin-bottom: 16px;
+}
+/* header 导航部分 */
+.s_cont .s_nav {
+    height: 41px;
+
+}
+.s_cont .s_nav ul {
+    width: 618px;
+    margin: 0 auto;
+    margin-top: 75px;
+}
+.s_cont .s_nav ul li {
+    float: left;
+    padding: 0 33px;
+}
+.s_cont .s_nav ul li a {
+    font-size: 14px;
+}
+.s_cont .s_nav ul li a:hover {
+    color: #00C1DE;
+}
+/* s_header end */
+/* main star */
+/* 应用场景 部分 */
+.s_use {
+    background: url(../S_images/2.png);
+    background-size: 100%;
+    height: 692px;
+}
+/* 典型客户 部分 */
+.s_client {
+    width: 100%;
+    height: 750px;
+    background: #272C2F;
+}
+/* 产品说 部分 */
+.s_speak {
+    height: 668px;
+    background: #1C1E1E;
+}
+/* 社区热点 部分 */
+.s_foot {
+    height: 720px;
+    background: url(../S_images/3.png) no-repeat center center;
+    background-size: 100%;
+    background-color: #34383A;
+}
+/* 行业动态 部分 */
+.s_trade {
+    
+}
+/* main end */
