@@ -25,16 +25,15 @@ body a:hover {
 }
 /* s_header star */
 /* 背景图片部分 */
-/* ie8 不支持伪元素 */
-.s_header:after {
-    content:'';
-    background: url(../S_images/1.jpg) no-repeat center center;
-    background-size: 100%;
+.s_header {
+    background: url(../S_images/1.jpg) no-repeat 0 -90px;
+    background-size: cover;
     height: 466px;
     transition: all 1s;
+    position: relative;
 }
-.s_header.trans:after{
-    transform:translateX(-10px);
+.s_header:hover {
+    background-position: 0 -100px;
 }
 /* 安全部分 */
 .s_cont h1 {
@@ -55,6 +54,7 @@ body a:hover {
     height: 35px;
     line-height: 35px;
     background-color: rgba(255, 255, 255, .1);
+    overflow: hidden;
 }
 .s_related_top span {
     padding-left: 18px;
@@ -93,9 +93,6 @@ body a:hover {
 .s_product {
     margin-right:140px;
 }
-/* .s_safe {
-    margin-left: 80px;
-} */
 .s_new_left,
 .s_product_left,
 .s_safe_left {
@@ -110,8 +107,13 @@ body a:hover {
 }
 /* header 导航部分 */
 .s_cont .s_nav {
-    margin-top: 75px;
-    
+    position: absolute;
+    bottom: 0;
+    width: 1200px;
+    margin: 0 auto;
+    height: 50px;
+    line-height: 50px;
+    z-index: 9999;
 }
 .s_cont .s_nav ul {
     width: 618px;
@@ -126,7 +128,7 @@ body a:hover {
     content: '';
     width: 60px;
     height: 2px;
-    bottom: -16px;
+    bottom: 0;
     left: 31px;
     background-color: #00C1DC;
     position: absolute;
@@ -149,9 +151,13 @@ body a:hover {
 }
 /* 应用场景 部分 */
 .s_use {
-    background: url(../S_images/2.png);
+    background: url(../S_images/2.png) no-repeat 0 0;
     background-size: 100%;
     height: 692px;
+    transition: all 1s;
+}
+.s_use:hover {
+    background-position-y: -10px;
 }
 /* 左边 */
 .s_use .s_left {
@@ -160,34 +166,52 @@ body a:hover {
     background: rgba(255, 255, 255, .1);
     position: relative;
     margin-right: 140px;
+    padding: 22px 0;
+    overflow: hidden;
+    cursor: pointer;
+}
+.s_left .s_mask {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(183,186,189,.2);
+    z-index: 1;
 }
 .s_use .s_top {
     width: 100%;
-    height: 20px;
+    height: 22px;
     background: #414447;
     text-align: center;
+    z-index: 6;
 }
 .s_use .s_bottom {
     width: 100%;
-    height: 20px;
+    height: 22px;
     background: #414447;
     text-align: center;
     position: absolute;
     bottom: 0;
     left: 0;
+    z-index: 6;
+}
+.s_use .s_top img,
+.s_use .s_bottom img{
+    width: 35px;
+    margin: 0 auto;
 }
 .s_use img {
     width: 32px;
 }
 .s_use .s_icon {
     width: 100%;
-    height: 400px;
-    position: absolute;
-    top: 20px;
+    position: relative;
     left: 0;
     color: #fff;
     font-size: 14px;
     overflow: hidden;
+    transition: all 1s;
 }
 .s_use .s_icon img {
     height: 40px;
@@ -196,21 +220,29 @@ body a:hover {
     margin: 0 26px 0 30px;
 }
 .s_use .s_icon li {
-    width: 100%;
     height: 80px;
     line-height: 80px;
-    cursor: pointer;        
-}
-.s_use .s_icon .s_ck {
-    background: #00C1DC;
+    z-index: 5;
+    box-sizing: border-box;
+    position: relative;
 }
 .s_use .s_icon li:hover {
     background: #00c1dc;
 }
+#s_xs {
+    display: none;
+}
+#s_pxa {
+    display: none;
+}
 /* 右边 */
-.s_right {
+.s_use .s_right {
     width: 780px;
     margin-top: 64px;
+    display: none;
+}
+#s_a {
+    display: block;
 }
 .s_right .s_section {
     border-bottom: 1px solid #505760;
