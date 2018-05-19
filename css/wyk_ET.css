@@ -1,0 +1,574 @@
+*{
+	margin: 0;
+	padding:0;
+}
+.clear:after {
+	content: ".";
+    display: block;
+    height: 0;
+    visibility: hidden;
+    clear: both;
+}
+.clear {
+	*zoom: 1;
+}
+ul li {
+	list-style: none;
+}
+a {
+	text-decoration: none;
+}
+.contain {
+	width: 1200px;
+    margin: 0 auto;
+ }
+.bg {
+    height: 640px;
+   background: url(../images/wyk_image/123.png) no-repeat center;
+   background-size: auto 100%;
+   position: relative;
+}
+.bg .banner{
+	width: 1200px;
+	height: 468px;
+	margin: 0 auto;
+}
+.banner a {
+    font-size: 16px;
+    line-height: 42px;
+    color: #333;
+    text-align: center;
+    width: 200px;
+    height: 42px;
+    display: inline-block;
+    background: #fff;
+    border-radius: 100px;
+    text-decoration: none;
+    overflow: hidden;
+    margin-top: 422px;
+}
+.bg .line {
+	position: absolute;
+    left: 50%;
+    bottom: 105px;
+    margin-left: -700px;
+    width: 1400px;
+    height: 1px;
+    font-size: 0;
+    background-image: linear-gradient(90deg,hsla(0,0%,100%,0),hsla(0,0%,100%,.4) 53%,hsla(0,0%,100%,0));
+}
+.bg .list{
+	position: absolute;
+    left: 50%;
+    bottom: 0;
+    width: 1370px;
+    height: 105px;
+    margin-left: -685px;
+    overflow: hidden;
+}
+.bg .list .lister{
+	float: left;
+    width: 341px;
+    margin-top: 26px;
+    margin-bottom: 31px;
+    border-right: 1px solid #4F589C;
+}
+.bg .list .one {
+    line-height: 28px;
+    font-size: 16px;
+    color: #fff;
+    font-weight: bolder;
+    text-shadow: 0 2px 4px rgba(21,33,72,.5);
+    text-align:center;
+}
+.bg .list .two {
+	    font-size: 14px;
+    color: #fff;
+    line-height: 20px;
+    text-align:center;
+}
+
+
+/*ET大脑旋转开始*/
+ .head{
+ 	position: relative;
+    width: 1200px;
+    height: 736px;
+    margin: 0 auto;
+ }
+ .head h3 {
+ 	position: relative;
+    z-index: 1;
+    line-height: 36px;
+    font-size: 24px;
+    color: #333;
+    text-align: center;
+    font-weight: 400;
+    margin-top: 80px;
+    overflow: hidden;
+ }
+ .head .intro {
+ 	 position: relative;
+    z-index: 1;
+    line-height: 24px;
+    font-size: 16px;
+    color: #666;
+    text-align: center;
+    margin-top: 2px;
+    overflow: hidden;
+ }
+ .head img {
+ 	position: absolute;
+    left: 50%;
+ }
+.head .bc {
+	width: 636px;
+    position: absolute;
+    left: 50%;
+    top: 72px;
+    transform: translate(-50%);
+}
+.head .sc {
+    width: 492px;
+     top: 142px;
+   /* animation: aniSc 8s linear infinite;
+    transform: translate(0);*/
+    margin-left: -246px;
+    animation: zhuan 8s linear infinite;
+}
+
+@keyframes zhuan{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+
+.head .logo{
+  width: 191px;
+  top: 271px;
+   transform: translate(-50%)
+}
+.head .item1 {
+	top: 243px;
+    left: 182px;
+	position: absolute;
+    overflow: hidden;
+}
+.head .item2 {
+	top: 473px;
+    left: 210px;
+	position: absolute;
+    overflow: hidden;
+}
+.head .item3 {
+	top: 243px;
+    left: 846px;
+	position: absolute;
+    overflow: hidden;
+}
+.head .item4 {
+	top: 473px;
+    left: 820px;
+	position: absolute;
+    overflow: hidden;
+}
+.head .img {
+	display: inline-block;
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+     background-size: 100%;
+    margin-left: 14px;
+}
+.head .item1 .img {
+	background: url(../images/wyk_image/TB1_9JJirYI8KJjy0FaXXbAiVXa-100-100.png) center 0px no-repeat;
+	     float: right;
+}
+.head .item2 .img {
+	background: url(../images/wyk_image/TB1BcA0innI8KJjSszbXXb4KFXa-100-100.png) center 0px no-repeat;
+	     float: right;
+}
+.head .item3 .img {
+	background: url(../images/wyk_image/TB17EprisbI8KJjy1zdXXbe1VXa-100-100.png) center 0px no-repeat;
+	float: left;
+}
+.head .item4 .img {
+	background: url(../images/wyk_image/TB17oprisbI8KJjy1zdXXbe1VXa-100-100.png) center 0px no-repeat;
+	float: left;
+}
+.head .text {
+	float: right;
+	margin-top: 25px;
+	
+}
+.head .item1 .text {
+	text-align: right;
+	}	
+.head .item2 .text {
+text-align: right;
+}
+.head .item3 .text {
+text-align:left;
+}
+.head .item4 .text {
+text-align: left;
+}
+.head b {
+	 display: block;
+    font-size: 16px;
+    color: #333;
+    line-height: 36px;
+    overflow: hidden;
+}
+.head .one {
+	display: block;
+    font-size: 14px;
+    color: #666;
+    letter-spacing: .5px;
+    line-height: 18px;
+    margin-top: -8px;
+    overflow: hidden;
+}
+ 
+/*ET大脑旋转结束*/
+
+ /*ET大脑创新开始 */
+ .create {
+    height: 416px;
+    width: 100%;
+   position: relative;
+ }
+ .dn-contain{
+    height: 413px;
+    width: 1200px;
+    margin: 0 auto;
+ }
+ .dn-contain .title {
+    text-align: center;
+ }
+  .dn-contain .title h1 {
+    font-size: 24px;
+    color: #333;
+    font-weight: 400;
+    line-height: 36px;
+    padding-top: 81px;
+  }
+  .dn-contain .title p {
+    font-size: 16px;
+    color: #666;
+    line-height: 24px;
+    margin-top: 2px;
+  }
+  .dn-contain .list {
+    padding-top: 27px;
+    text-align: center;
+    padding-bottom: 81px;
+    overflow: hidden;
+  }
+  .dn-contain .list .lister {
+    float: left;
+    /*text-align: center;*/
+    display: inline-block;
+    overflow: hidden;
+  }
+/*  .dn-contain .list background:hover .img{
+   background:url(wyk_image/1.png) center -1400px/100% no-repeat;
+  }*/
+  .dn-contain  .lister .img {
+    width: 100px;
+    height: 100px;
+   margin: 0 auto 14px;
+    overflow: hidden;
+  }
+  .dn-contain  .lister .infor{
+    font-size: 16px;
+    color: #333;
+    width: 234px;
+    margin: 0 auto;
+    letter-spacing: .5px;
+    line-height: 24px;
+  }
+
+/* ET大脑创新结束 */
+
+/*<!--ET大脑行业开始  -->*/
+.hangye {
+   /* height: 698px;*/
+    position: relative;
+    padding: 80px 0;
+}
+.hangye .inner {
+    width: 1200px;
+    height: 538px;
+    margin: 0 auto;
+}
+.hangye .inner h3 {
+    line-height: 36px;
+    font-size: 24px;
+    color: #333;
+    text-align: center;
+    font-weight: 400;
+    overflow: hidden;
+}
+.hangye .inner p {
+    line-height: 24px;
+    font-size: 16px;
+    color: #666;
+    text-align: center;
+    margin-top: 2px;
+    overflow: hidden;
+}
+.hangye .inner  ul {
+    margin-top: 48px;
+}
+.hangye .inner  ul li {
+       position: relative;
+    float: left;
+    display: inline-block;
+    width: 280px;
+    height: 428px;
+    margin: 0 10px;
+    overflow: hidden;
+}
+ .inner li .bg {
+    position: absolute;
+    top: -20px;
+    right: -5px;
+}
+.inner li .title {
+    position: relative;
+    height: 33px;
+    line-height: 33px;
+    font-size: 16px;
+    color: #fff;
+    font-weight: 700;
+    padding: 0 22px;
+    margin-top: 23px;
+    text-shadow: 0 2px 4px rgba(21,33,72,.5);
+    overflow: hidden;
+    text-align: left;
+}
+.inner li .text {
+    position: relative;
+    line-height: 20px;
+    font-size: 14px;
+    color: #fff;
+    padding: 0 22px;
+    text-shadow: 0 2px 4px rgba(21,33,72,.5);
+    margin-top: 2px;
+    overflow: hidden;
+    text-align: left;
+}
+.inner li .icor {
+    position: relative;
+    display: block;
+    vertical-align: top;
+    margin-top: 20px;
+    margin-left: 22px;
+}
+ .inner li .front{
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: all .5s ease-in-out;
+}
+.hangye .inner a:hover .front {
+    transform: scale(1.2);
+}
+/*--ET大脑行业结束 */
+
+
+ /*ET大脑普惠开始 */
+.huipu {
+   height: 560px;
+   background:url(../images/wyk_image/ET惠普1.png)no-repeat top center;
+}
+.huipu .contain1 {
+    margin:  0 auto;
+    width: 1200px;
+}
+.huipu .contain1 .title {
+    text-align: center;
+    margin: 0 auto;
+}
+.huipu .title h1 {
+    font-size: 32px;
+    line-height: 50px;
+    color: #fff;
+    font-weight: 400;
+    letter-spacing: 0;
+    padding-top: 80px;
+}
+.huipu .title p {
+    font-size: 24px;
+    color: #fff;
+    line-height: 36px;
+    margin-top: 20px;
+}
+.huipu .title a {
+    background: #fff;
+    display: inline-block;
+    font-size: 16px;
+    color: #333;
+    width: 130px;
+    height: 36px;
+    line-height: 36px;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 100px;
+    margin-top: 44px
+}
+.huipu .logo {
+    display: block;
+    vertical-align: top;
+    margin: 60px auto 0;
+}
+/*<!-- ET大脑普惠结束 -->*/
+
+
+    /*<!-- ET大脑人工智能开始 -->*/
+  .pht {
+      height: 465px;
+      background-color: #f5f5f5;
+  }
+  .pht .title h1 {
+  font-size: 24px;
+  color: #333;
+  font-weight: 400;
+  line-height: 36px;
+  padding-top: 81px;
+  text-align: center;
+  }
+    .pht .title p {
+  font-size: 16px;
+  color: #666;
+  line-height: 24px;
+  margin-top: 2px;
+  text-align: center;
+  }
+ .pht .list {
+    text-align: center;
+    padding-top: 27px;
+    padding-bottom: 81px;
+    overflow: hidden;
+ }
+ .pht .list .lister {
+   float: left;
+  display: inline-block;
+   overflow: hidden;
+ }
+ .pht .lister .img {
+  width: 100px;
+ height: 100px;
+ margin: 0 auto 14px;
+ overflow: hidden;
+ }
+ .pht .lister .tit {
+    width: 234px;
+    margin: 0 auto 4px;
+    display: block;
+    font-size: 16px;
+    color: #333;
+    font-weight: 700;
+    letter-spacing: .5px;
+    line-height: 28px;
+    text-decoration: none;
+ }
+  .pht .lister .tit a {
+    display: block;
+    width: 234px;
+    margin: 0 auto;
+    overflow: hidden;
+    color: #333;
+  }
+  .pht .lister .tit a:hover {
+    color: #3078b5;
+  }
+  .pht .lister .infor {
+    width: 234px;
+    margin: 0 auto;
+    font-size: 14px;
+    color: #666;
+    letter-spacing: .5px;
+    line-height: 24px;
+  }
+  .pht .lister .infor a {
+    color: #666;
+    display: block;
+    width: 234px;
+    margin: 0 auto;
+    overflow: hidden;
+  }
+  .pht .lister .infor a:hover {
+    color: #3078b5;
+  }
+ /* <!-- ET大脑人工智能结束 -->*/
+
+
+/* <!-- ET大脑底部开始 -->*/
+.footer {
+    padding:80px 0 74px;
+    height: 312px; 
+}
+.footer .innerf {
+   width: 1200px;
+   margin: 0 auto;
+   height: 312px;
+}
+.footer ul .img {
+  margin-bottom: 16px;
+  float: left;
+  display: inline-block;
+  width: 380px;
+  margin: 0 10px;
+  overflow: hidden;
+  margin-bottom: 16px;
+}
+.footer ul .img a {
+     position: relative;
+    display: block;
+    overflow: hidden;
+}
+.footer ul .img img {
+    display: block;
+    width: 100%;
+    height: 240px;
+    vertical-align: top;
+}
+.footer ul .img .title {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    font-size: 14px;
+    color: #fff;
+    box-sizing: border-box;
+    padding: 0 20px;
+    background-color: rgba(0,0,0,.4);
+    overflow: hidden;
+}
+.footer ul li {
+     float: left;
+    display: inline-block;
+    width: 380px;
+    margin: 0px 10px;
+    overflow: hidden;
+}
+.footer ul li a {
+    position: relative;
+    display: block;
+    overflow: hidden;
+}
+.footer li a .tit {
+    height: 28px;
+    line-height: 28px;
+    font-size: 14px;
+    color: #333;
+    overflow: hidden;
+}
+/*     ET大脑底部结束*/

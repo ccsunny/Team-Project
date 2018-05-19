@@ -1,0 +1,356 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Microsoft YaHei';
+}
+.clear:after {
+	content: ".";
+    display: block;
+    height: 0;
+    visibility: hidden;
+    clear: both;
+}
+.clear {
+	*zoom: 1;
+}
+ul li {
+	list-style: none;
+}
+a {
+	text-decoration: none;
+}
+.show {
+  display: none;
+}
+.hidden {
+  display: block;
+}
+
+/*.headed {
+	height: 60px;
+    position: relative;
+    background-color: #1F2326;
+    border-bottom: 1px solid rgba(255,255,255,0.3)
+}
+
+.headed .logo{
+	position: absolute;
+	left: 20px;
+	height: 24px;
+	top: 14px;
+}
+.headed-right-l {
+	position: absolute;
+	top: 2px;
+	left: 1202px;
+    height: 60px;
+    line-height: 60px;
+    color: #fff;
+    font-size: 14px;*/
+    /*padding: 0 12px 0 35px;
+}
+.headed-right-l img {
+	position: absolute;
+	top: 22px;
+	left: -24px;
+}
+.headed-right-r li {
+	position: absolute;
+	top: 1px;
+	left: 1304px;
+    height: 60px;
+    line-height: 60px;
+  /*  padding: 0 20px;*/
+  /*  font-size: 14px;
+    color: #fff;
+    text-decoration: none;
+}
+*/
+/*中部开始*/
+.body-center {
+	padding: 74px 0 118px;
+    text-align: center;
+    background-color: yellow;
+    height: 396px;
+    background: url(../../登录32/wyk_image/1231.jpg) ;
+  background-size:cover;
+  position: relative;
+}
+.banner {
+    width: 900px;
+    margin: auto;
+    position: relative;
+    height: 388px;
+/*  background-color: red;*/
+  position: relative;
+}
+.banner .banner-l {
+	width: 338.34px;
+	height: 145px;
+	position: absolute;
+    left: 0;
+    color: #fff;
+    text-align: left;
+    top: 90px;
+}
+.banner .banner-l h1 {
+	font-size: 29px;
+    color: #FFFFFF;
+    line-height: 36px;
+    margin-bottom: 19px;
+    font-weight: bold;
+}
+.banner .banner-l li {
+    font-size: 14px;
+    color: #FFFFFF;
+    letter-spacing: 0.47px;
+    line-height: 30px; 
+}
+.banner .banner-r{
+	width: 380px;
+	height: 378px;
+    padding-top: 22px;
+    border: none;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 0;
+  background-color: #fff;
+}  
+.banner-r .banner-r-html {
+	width: 380px;
+	height: 346px;
+}
+   .banner-r .banner-r-body {
+   	 width: 330px;
+    margin: 0 auto;
+    height: 346px;
+/*    background-color: red;*/
+   }
+   .banner-r-body .top {
+   	position: relative;
+   }
+  .banner-r-body .top .title {
+  	font-size: 18px;
+    color: #373D41;
+    line-height: 24px;
+    width: 100px;
+    position: absolute;
+    top: 0;
+    left: -13px;
+    display: block;
+  }
+   .banner-r-body .top .top-box{
+   	height: 28px;
+    line-height: 28px;
+    width: 70px;
+    background: #E6F9FC;
+    border: 1px solid #14C2DD;
+    position: absolute;
+    top: 0px;
+    right: 46px;
+   }
+  .banner-r-body .top .saoma {
+  	color: #14C2DD;
+  	font-size: 12px;
+    font-weight: 400;
+  }
+  .banner-r-body .top .logo1 {
+  	position: absolute;
+  	top: 8px;
+  	right: -7px;
+  }
+  .banner-r-body .top .erweima {
+  	width: 40px;
+  	height: 40px;
+  	background:url(../../登录32/wyk_image/canvas_r2_c24.png) no-repeat;
+  	position: absolute;
+  	top: 0;
+  	right: 0;
+  }
+  .banner-r-body .title-t {
+  	font-size: 14px!important;
+    color: #73777A;
+    line-height: 24px;
+    border: none;
+    font-weight: 400;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+    position: absolute;
+    top: 78px;
+    left: 29px;
+  }
+  .banner-r-body .inputid,
+  .banner-r-body .inputid-b  {
+  	background: #FFF;
+    border: 1px solid #D7D8D9;
+    height: 40px;
+    width: 330px;
+    line-height: 40px;
+    padding: 0 10px;
+    box-sizing: border-box;
+    position: absolute;
+     left: 29px;
+     font-size: 12px;
+    color: #595959;
+  }
+  .banner-r-body .inputid{
+     top: 117px;
+  }
+  .banner-r-body .inputid-b {
+   top: 180px;
+  }
+  .banner-r-body .inputid-last {
+  	 background: #00C1DE;
+    border-color: #00C1DE;
+    height: 40px;
+    line-height: 40px;
+    width: 330px;
+    box-sizing: border-box;
+    font-size: 14px;
+    font-weight: 700;
+    text-align: center;
+    color: #fff;
+    position: absolute;
+    top: 243px;
+    left: 29px;
+    outline: none;
+    border: 0;
+    cursor: pointer;
+  }
+ .banner-r-body .inputid-last:hover {
+ 	background-color: #00b7d3;
+ }
+ .banner-r-body ul li:first-child{
+ 	left: 159px;
+ }
+ .banner-r-body ul li:nth-child(2){
+ 	left: 225px;
+ }
+ .banner-r-body ul li:last-child{
+ 	left: 305px;
+ }
+ .banner-r-body ul li {
+ 	position: absolute;
+ 	top: 288px;
+ }
+ .banner-r-body  li a {
+ 	color: #9B9EA0;
+ 	font-size: 12px;
+ }
+ .banner-r-body  li a:hover {
+ 	color: #08c;
+ }
+ .banner-r-body .footer {
+ 	width: 330px;
+ 	height: 22px;
+ 	position: absolute;
+ 	top: 335px;
+ 	left: 29px;
+ }
+ .banner-r-body .footer span {
+ 	float: left;
+ 	font-size: 14px;
+ }
+ .banner-r-body .footer a {
+   /* display: inline-block;*/
+    padding-left: 6px;
+    position: absolute;
+    top: 0px;
+ }
+ .banner-r-body .footer .one {
+ 	left: 83px;
+ }
+  .banner-r-body .footer .two {
+ 	left: 113px;
+ }
+  .banner-r-body .footer .three {
+ 	left: 142px;
+ }
+ 
+ .blockbox {
+ 	width: 380px;
+ 	height: 395px;
+ 	background-color: #fff;
+ 	position: absolute;
+ 	top: 0px;
+ 	right: 0px;
+ }
+ .blockbox.banner-r-body1 {
+   	 width: 330px;
+    margin: 0 auto;
+    height: 346px;
+   }
+  /* .banner-r-body1 .top1 {
+   	position: relative;
+   }*/
+  .banner-r-body1 .top1 .title1 {
+  	font-size: 18px;
+    color: #373D41;
+    line-height: 24px;
+    width: 100px;
+    position: absolute;
+    top: 25px;
+    left: 14px;
+    display: block;
+  }
+   .banner-r-body1 .top1 .top-box1{
+   	height: 28px;
+    line-height: 28px;
+    width: 70px;
+    background: #E6F9FC;
+    border: 1px solid #14C2DD;
+    position: absolute;
+    top: 26px;
+    right: 79px;
+   }
+  .banner-r-body1 .top1 .password {
+  	color: #14C2DD;
+  	font-size: 12px;
+    font-weight: 400;
+  }
+  .banner-r-body1 .top1 .logo1 {
+  	position: absolute;
+  	top: 8px;
+  	right: -7px;
+  }
+  .banner-r-body1 .top1 .computer {
+  	width: 40px;
+  	height: 40px;
+  	background:url(../../登录32/wyk_image/canvas1_r2_c25.png) no-repeat;
+  	position: absolute;
+  	top: 23px;
+  	right: 34px;
+  }
+  .banner-r-body1 .img{
+  	display: inline-block;
+       position: absolute;
+       top: 115px;
+       left: 121px;
+   }
+.banner-r-body1 .img-buttom {
+	font-size: 14px;
+    color: #5F6367;
+    line-height: 24px;
+    position: absolute;
+    top: 260px;
+    left: 98px;
+}
+.banner-r-body1 .last-l,
+.banner-r-body1 .last-r{
+	position: absolute;
+	top: 340px;
+}
+.banner-r-body1 .last-l{
+	left: 194px;
+}
+.banner-r-body1 .last-r{
+	left: 293px;
+}
+.banner-r-body1 a {
+	color: #9B9EA0;
+	font-size: 12px;
+}
+.banner-r-body1 a:hover {
+	color: #08c;
+}

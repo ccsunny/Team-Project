@@ -1,0 +1,593 @@
+* {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+a {
+	text-decoration: none;
+	color:#333;
+}
+.clearfix{
+	zoom:1;
+}
+.clearfix:after{
+	content:'1';
+	display: block;
+	clear: both;
+	visibility: hidden;
+	height: 0;
+}
+
+.fl {
+	float: left;
+}
+
+
+.fr {
+	float: right;
+}
+
+
+.bx {
+	width: 1200px;
+	margin: 0 auto;
+}
+
+
+.dhz {
+	background-color: #373d41;
+
+}
+.ehz {
+	height: 360px;
+	box-sizing: border-box;
+	padding-top: 60px;
+}
+
+.shz {
+	width: 500px;
+	float: left;
+}
+.lbt {	
+	width: 700px;
+	height: 300px;
+	float: right;
+	overflow: hidden;
+	background: url(../images/hkl_images/1.png) no-repeat right;
+}
+
+
+.dhz h1 {
+	padding-top: 70px;
+	color: #fff;
+}
+
+
+.hkl_lj {
+	font-size: 24px;
+	color: #fff;
+	margin-top: 19px;
+}
+
+
+.tal {
+	height: 100px;
+	background: url(../images/hkl_images/3.png);
+}
+.hkl_banner_nav{
+	height: 100px;
+	position: relative;
+}
+
+.ck {
+	width: 200px;
+	height: 50px;
+	border: 1px solid #fff;
+	line-height: 50px;
+	text-align: center;
+	margin-top: 36px;
+}
+.ck a {
+
+	color: #fff;
+}
+
+
+.bz {
+	font-size: 32px;	
+	color: #fff;
+    margin-right: 32px;
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	left: 0;
+ }
+.hkl_search {
+	border: 2px solid #00c1e0;
+}
+
+.tal input {
+	width: 500px;
+	height: 40px;
+}
+.tal input:last-of-type {
+	width: 80px;
+	height: 40px;
+	background: #00c1e0;
+	color: white;
+	border: 0;
+}
+.hkl_search {
+	position: absolute;
+	top: 25%;
+	left: 50%;
+	transform: translate(-50%);
+
+}
+.ll {
+	width: 625px;
+	position: absolute;
+	bottom: 5px;
+	left: 52%;
+	transform: translateX(-50%);
+}
+.ll  li {
+	float: left;
+	margin-right: 20px;
+}
+.ll  li:nth-of-type(1) a{
+	color: #999;
+}
+.ll  li a{
+	float: left;
+	color: #00b7d3;
+	font-size: 12px;
+	display: inline-block;
+}
+.ll  li:hover a{
+	text-decoration: underline;
+}
+.hkl_wh {
+	margin-bottom: 50px;
+}
+.hkl_tab a{
+
+}
+.hkl_tab img{
+	width: 20px;
+	height: 20px;
+}
+.wdzd {
+	display: none;
+}
+.show {
+	display: block;
+}
+.jgxhx {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	height: 2px;
+	width: 100%;
+	background-color: #00c1de;
+}
+/*.jgxhx {
+	border-bottom: -2px;
+}*/
+/*.hkl_tab li:hover a {
+	border-bottom: 2px solid #00c1de;
+}*/
+/*.hkl_tab  li:nth-of-type(1) {
+	border-bottom: 2px solid #00c1de;
+}
+.hkl_tab  li:nth-of-type(2) {
+	border-bottom: 2px solid #00c1de;
+}
+.hkl_tab  li:nth-of-type(3) {
+	border-bottom: 2px solid #00c1de;
+}
+.hkl_wdzd {
+	
+}*/
+/*.hkl_active {
+	border-bottom: 2px solid #00c1de !important;
+}
+*/
+.hkl_wd {
+	 float: left;
+    width: 188px;
+    display: inline-block;
+    margin-right: 110px;
+    padding-top: 38px;
+}
+.hkl_wd li a {
+	color: #00b7d3;
+	font-size: 14px;
+}
+.hkl_wd  li:hover a{
+	text-decoration: underline;
+}
+.hkl_wd li {
+border-bottom: 1px solid #e5e5e5;
+height: 50px;
+line-height: 50px;
+}
+.hkl_wd h3 {
+	font-size: 18px;
+    margin: 24px 0 6px;
+}
+
+														/*新手教堂开始*/
+
+.hkl_xsjt {
+	/*display: none;*/
+}
+.hkl_xsjt h2{
+    color: #373d41;
+    text-align: center;
+    padding-top: 20px;
+}
+.hkl_xsjt p {
+	font-size: 16px;
+    height: 16px;
+    line-height: 16px;
+    color: #777f84;
+    text-align: center;
+    margin-top: 17px;
+    margin-bottom: 13px;
+}
+.hkl_dlm{
+	display: inline-block;
+
+}
+
+.hkl_dlm a {
+	float: left;
+    display: inline-block;
+    background: #fff;
+    border: 1px solid #e9eaec;
+    width: 328px;
+    height: 148px;
+    padding: 32px 20px 0;
+    margin-left: 20px;
+    margin-top: 20px;
+    text-decoration: none;
+    transition: all .3s ease-in-out;
+}
+.hkl_dlm:hover a {
+	border: 1px solid #00c1de;
+	box-shadow: 0 0 9px 3px rgba(0,193,222,.5);
+}
+.hkl_lm a:hover p:first-of-type  {
+	color: #00c1de;
+}
+
+				/*新手教堂结束新新手教堂结束新手教堂结束手教堂结束新手教堂结束新手教堂结束新手教堂结束*/
+		
+		/*上云实践开始 上云实践开始 上云实践开始上云实践开始上云实践开始上云实践开始*/
+.sysj1 li{
+	float: left;
+	flex:1;
+}
+.sysj1{
+	width: 1200px;
+	display: flex;
+	margin-top: 30px;
+}
+.sysj1 a{
+	padding: 10px 0;
+}
+.sysj1 a:first-of-type:hover  {
+	color: #00c1de;
+}
+.sysj1 a:hover {
+	border-bottom: 2px solid #00c1de;
+}
+
+.hkl_sysj h2 {
+	margin-top: 30px;
+    color: #373d41;
+    text-align: center;
+}
+.hkl_sysj2 img {
+	
+}
+
+.hkl_sysj p {
+	margin-top: 17px;
+    font-size: 16px;
+    height: 16px;
+    line-height: 16px;
+    color: #777f84;
+    text-align: center;
+}
+.sysj2 img {
+	float: left;
+	margin: 20px 5px 20px 15px;
+}
+.sysj2 {
+	width: 999px;
+	height: 313px;
+    background: #f5f5f6;
+	margin-left: 20px;
+}
+.sysj2{
+	margin-top: 30px;
+	display: inline-block;
+	float: left;
+
+}
+.sysj3 {
+	width: 300px;
+	height: 270px;
+	float: left;
+	margin: 20px 60px 20px 10px;
+}
+
+.sp1 {
+	width: 352px;
+	height: 55.2px;
+	display: inline-block;
+}
+.sp2 {
+	width: 352px;
+	height: 55.2px;
+	display: inline-block;
+}
+.sp3 {
+	width: 352px;
+	height: 55.2px;
+	display: inline-block;
+}
+.sp4 {
+	width: 352px;
+	height: 55.2px;
+	display: inline-block;
+}
+.sysj3 p{
+	font-size: 12px;
+	text-align: left;
+    text-decoration: none;
+}
+.sysj3 a {
+	font-size: 14px;
+    text-align: left;
+    text-decoration: none;
+}
+.xgwd {
+	height: 215px;
+	margin-top: 20px;
+	padding-left: 10px;
+	box-sizing: border-box;
+	border-left: 1px solid rgb(214, 214, 214);
+	float: left;
+
+}
+.xgwd li a {
+	font-size: 12px;
+	line-height: 30px;
+    text-align: left;
+    text-decoration: none;
+    color: #777f84;
+}
+.xgwd li:hover a{
+	text-decoration: underline;
+	color: #00b7d3;
+}
+
+      /*上云实践结束 上云实践结束上云实践结束上云实践结束上云实践结束上云实践结束上云实践结束 */
+
+
+
+      /*视频教程开始视频教程开始视频教程开始视频教程开始视频教程开始视频教程开始视频教程开始*/
+.hkl_spjc1 {
+	background-color: #8b969c;
+	height: 480px;
+}
+
+.hkl_spjc {
+	margin-top: 20px;
+	
+}
+.hkl_spjc h2 {
+	padding-top: 40px;
+	text-align: center;
+	margin-bottom: 8px;
+	color: #fff;
+}
+.hkl_spjc p {
+	text-align: center;
+	color: #fff;
+}
+
+
+
+/*.hkl_bjt div:hover img:last-of-type {
+	color: #00c1de;
+}*/
+
+
+.hkl_bjt li {
+	display: inline-block;
+	width: 280px;
+	height: 160px;
+	position: relative;
+	margin-top: 20px;
+}
+.hkl_bjt  li p {
+	background-color: black;
+	color: #fff;
+	position: absolute;
+	width: 100%;
+	height: 25px;
+	bottom: 0;
+
+
+}
+.hkl_bjt li img {
+	position: absolute;
+
+}
+.hkl_bjt  li img:first-of-type {
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%,-50%);
+	z-index: 2;
+}
+.hkl_bjt  li div:first-of-type {
+	height: 135px;
+}
+.hkl_bjt span {
+	width: 100%;
+	height: 135px;
+	display: inline-block;
+	background-color: rgba(0,0,0,.4);
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.hkl_bjt li {
+	margin-left: 10px;
+}
+			/*视频教程结束视频教程结束视频教程结束视频教程结束视频教程结束视频教程结束视频教程结束*/
+
+		/*热门操作指南开始热门操作指南开始热门操作指南开始热门操作指南开始热门操作指南开始*/
+.hkl_rmcz h2 {
+	padding-top: 40px;
+	margin-bottom: 8px;
+	text-align: center;
+	color: #373d41;
+
+}
+.hkl_rmcz p {
+	text-align: center;
+	color: #777f84;
+	margin-bottom: 15px;
+}
+.hkl_bg {
+	overflow: hidden;
+
+
+}
+.hkl_bg2{
+	width: 24%;
+	height: 232px;
+	float: left;
+	border: 1px solid black;
+}
+.hkl_bg:first-child div:hover {
+	box-shadow: 0 0 6px 2px rgba(0,193,222,.3);
+}
+.hkl_bg2 div:first-child {
+	text-align: center;
+	height: 55px;
+	background-color: #e8ebef;
+	line-height: 55px;
+	font-size: 20px;
+}
+.hkl_bg2 p {
+	line-height: 30px;
+	margin-left: 10px;
+	margin-top: 10px;
+}
+.hkl_bg2 img {
+	vertical-align: middle;
+	margin-right: 10px;
+}
+.hkl_bg2:hover{
+	 box-shadow: 5px 2px 15px 0 rgba(55,61,65,.3);
+ }
+.hkl_bg2 span:hover  {
+	color: #00c1de;
+}
+.hkl_bg2 p:hover a:first-of-type  {
+	color: #00c1de;	
+}
+				/*热门操作指南结束热门操作指南结束热门操作指南结束热门操作指南结束*/
+
+                        /*技术支持开始技术支持开始技术支持开始技术支持开始技术支持开始*/
+.hkl_jszc2{
+	    height: 345px;
+}
+.hkl_jszc h2 {
+	text-align: center;
+	margin-top: 30px;
+}
+.hkl_jszc p {
+	text-align: center;
+	margin-top: 10px;
+	color: #777f84;
+	font-size: 16px;
+}
+.hkl_jszcul {
+	width: 280px;
+	height: 260px;
+    float: left;
+    margin-top: 20px;
+
+}
+.hkl_jszc h3 {
+	padding-left: 10px;
+	border-left: 3px solid #00c1de;
+	font-size: 18px;
+	height: 20px;
+    line-height: 20px;
+    color: #373d41;
+}
+.hkl_jszc li a {
+	display: block;
+    margin-left: 12px;
+    margin-top: 20px;
+    font-size: 14px;
+    color: #373d41
+}
+.hkl_jszcul li:hover a{
+	color: #00b7d3;
+}
+     /*技术支持结束技术支持结束技术支持开始技术支持开始技术支持开始*/
+.hkl_zzgjys {
+	background-color: #f7f7f7;
+	display: none;
+}
+.hkl_zzgj {
+	overflow: hidden;
+	width: 100px;
+}
+.hkl_zzgj h2 {
+	padding-bottom: 40px;
+	font-size: 24px;
+    height: 24px;
+    line-height: 24px;
+    color: #373d41;
+    text-align: center;
+ }
+ .hkl_zzgj2 {
+ 	display: inline-block;
+ 	overflow: hidden;
+ 	height: 117px;
+    margin-top: 20px;
+    padding: 20px 20px 0;
+    border: 1px solid #d9d9d9;
+    transition: 2s;
+ }
+ .hkl_zzgj2:hover{
+	 box-shadow: 5px 2px 15px 0 rgba(199,139,111,1);
+ }
+ .hkl_zzgj2 li:hover a {
+	color: #00b7d3;
+ }
+
+  .hkl_zzgj2 img{
+    width: 23px;
+    height: 20px;
+}
+.hkl_zzgj2 li {
+	float: left;
+	margin-left: 35px;
+	border-right: 1px solid #d9d9d9;
+	padding: 3px 20px 0;
+	color: #777f84;
+}
+.hkl_zzgj2 li a {
+	font-size: 13px;
+}

@@ -1,0 +1,187 @@
+/* 公共样式 */
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    color: #fff;
+    font-weight: 400;
+}
+.w {
+    width: 1200px;
+    margin: 0 auto;
+}
+a {
+    text-decoration: none;
+}
+ul li ol {
+    list-style: none;
+}
+.fl {
+    float: left;
+}
+.fr {
+    float: right;
+}
+/* banner 开始 */
+.banner {
+    width: 100%;
+    height: 694px;
+    background: url(../img/2.png) no-repeat center center;
+    padding-top: 84px;
+}
+.box {
+    float: left;
+    position: relative;
+    overflow: hidden;
+    width: 280px;
+    height: 444px;
+    padding: 22px 0;
+    box-sizing: border-box;
+    top: -30px;
+    margin-right: 100px;
+}
+.mask {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(183,186,189,.2);
+    z-index: 1;
+}
+.nav-top {
+    background: #414447;
+    height: 22px;
+    line-height: 22px;
+    width: 100%;
+    text-align: center;
+    cursor: pointer;
+    z-index: 6;
+    vertical-align: middle;
+    position: absolute;
+    top: 0;
+}
+.nav-top img {
+    width: 35px;
+}
+.nav-group {
+    position: relative;
+    left: 0;
+    transition: all .5s;
+}
+li {
+    height: 80px;
+    line-height: 80px;
+    padding: 0 30px;
+    cursor: pointer;
+    box-sizing: border-box;
+    position: relative;
+    z-index: 5;
+}
+li span {
+    float: left;
+    margin-right: 15px;
+}
+li img {
+    width: 42px;
+    vertical-align: middle;
+    position: relative;
+}
+li .name {
+    font-size: 14px;
+    margin-left: 8px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap
+}
+.nav-bottom {
+    background: #414447;
+    height: 22px;
+    line-height: 22px;
+    width: 100%;
+    text-align: center;
+    cursor: pointer;
+    z-index: 6;
+    vertical-align: middle;
+    position: absolute;
+    bottom: 0;
+}
+.nav-bottom img {
+    width: 35px;
+}
+.nav-group li.current {
+    background: #00c1dc;
+}
+/* 右边 */
+.right {
+    width: 780px;
+    margin-top: 64px;
+    display: none;
+}
+.checkn {
+    display: block;
+}
+.right .section {
+    border-bottom: 1px solid #505760;
+}
+.right .topic {
+    font-size: 24px;
+    color: #fff;
+    margin-bottom: 26px;
+}
+.right .des {
+    width: 660px;
+    font-size: 14px;
+    margin-bottom: 30px;
+    color: #9B9EA0;
+}
+.right .advice {
+    height: 124px;
+    border-bottom: 1px solid #505760;
+    margin-bottom: 22px;
+    padding-top: 32px;
+}
+.right .tell {
+    font-size: 18px;
+    color: #fff;
+    margin-bottom: 25px;
+}
+.right a {
+    color: #00C1DC;
+    font-size: 14px;
+}
+.right .rec .pic {
+    margin-right: 112px;
+}
+.right .rec div {
+    float: left;
+}
+.right .rec img {
+    width: 22px;
+    height: 22px;
+    vertical-align: middle;
+    margin-right: 8px;
+}
+.right .rec span {
+    font-size: 14px;
+    color: #fff;
+}
+.right .rec span:hover {
+    color: #00C1DC;
+}
+.right .rec .ff {
+    margin-right: 112px;
+}
+.right .rec .buy {
+    width: 100px;
+    height: 30px;
+    background: #505355;
+    font-size: 14px;
+    color: #fff;
+    text-align: center;
+    line-height: 30px;
+}
+.right .rec .buy:hover {
+    background: #00c1dc;
+}

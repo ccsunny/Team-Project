@@ -1,0 +1,483 @@
+
+/*顶部banner部分*/
+.ly_banner{
+    height: 445px;
+    position: relative;
+    perspective: 1000px;
+}
+.ly_banner img{
+    transform: translateZ(210px);
+}
+.ly_in_banner {
+    width: 800px;
+    height: 250px;
+    color: white;
+    top: 60% !important;
+}
+.ly_in_banner h1{
+    letter-spacing: inherit;
+    font:  900 normal 48px "黑体";
+}
+.ly_in_banner h5{
+    font:  500 normal 18px "黑体";
+    margin-top: 10px;
+}
+.ly_in_banner a{
+    width: 150px;
+    height: 40px;
+    display: inline-block;
+    color: #fff;
+    margin-top: 10px;
+    line-height: 40px;
+}
+.ly_in_banner a:nth-child(3){
+    background: #33CDE5;
+}
+.ly_in_banner a:nth-child(4){
+    border: 1px solid white;
+    transition: 0.5s;
+}
+.ly_in_banner a:nth-child(4):hover{
+    background: white;
+    color: #000;
+}
+.ly_search {
+    width: 800px;
+    margin-top: 50px;
+}
+.ly_search input{
+    width: 700px;
+    height: 50px;
+    padding: 15px;
+    background: white;
+    box-sizing: border-box;
+    float: left;
+}
+.ly_search button{
+    width: 100px;
+    height: 50px;
+    line-height: 50px;
+    background: #00c1de;
+    border: 0;
+    float: left;
+    color: #fff;
+    font:20px "黑体";
+    transition: 0.5s;
+}
+.ly_search button:hover{
+    background: #33CDE5;
+}
+/*页面导航*/
+.ly_nav {
+    background: #373D41;
+}
+.ly_nav ul{
+    display: flex;height: 80px;
+}
+.ly_nav ul li {
+    float: left;
+    flex: 1;
+    line-height: 80px;
+    position: relative;
+}
+.ly_nav ul li a{
+    padding: 30px;
+    color: #fff;
+    box-sizing: border-box;
+}
+.ly_nav ul li a:hover{
+    color: #33CDE5;
+}
+.ly_nav ul li span{
+    right: 50px;
+    top: 30px;
+    position: absolute;
+}
+.ly_nav ul li span img:first-child,
+.ly_nav ul li span img:last-child{
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+/*为什么要成为阿里合作伙伴*/
+.ly_why_do{
+    height: 800px;
+    padding: 80px 0;
+    box-sizing: border-box;
+    background: #F5F5F6;
+}
+.ly_why_partner {
+    height: 400px;
+    background: #F5F5F6;
+}
+.ly_why_partner h2,
+.ly_do h2,
+.ly_partner_plan h2,
+.ly_study_plan h2,
+.ly_news h2,
+.ly_best_friend h2{
+    font: 900 normal 25px '黑体';
+}
+.ly_why_partner p,
+.ly_study_plan p{
+    margin-top: 30px;
+    font: 400 14px '宋体';
+}
+.ly_why_partner ul {
+    width: 1200px;
+    height: 300px;
+    margin-top: 30px;
+    display: flex;
+}
+.ly_why_partner ul li,
+.ly_do ul li{
+    float: left;
+    flex:1;
+}
+.ly_why_partner ul li img{
+    transition: .5s;
+}
+.ly_why_partner ul li img:hover{
+    opacity: .8;
+}
+.ly_why_partner ul li div {
+    padding: 15px 40px;
+    box-sizing: border-box;
+}
+.ly_why_partner ul li div h4{
+    font: 700 18px '黑体';
+}
+.ly_why_partner ul li div p{
+    font-size: 14px;
+    margin-top: 15px;
+    color: #999;
+    text-align: center;
+}
+/*立即成为阿里合作伙伴*/
+.ly_do h2 {
+    margin-top: 40px;
+}
+.ly_do .line{
+    height:1px;
+    border-bottom: 1px dashed #737373;
+    position: absolute;
+    top: 176px;
+    left:0;
+    z-index: 0;
+}
+.ly_do ul{
+    padding: 30px 60px;
+    display: flex;
+}
+.ly_do ul li {
+    position: relative;
+    text-align: center;
+}
+.ly_do ul li a:hover span{
+    border-color: #99E6F2;
+}
+.ly_do ul li a span{
+    width: 10px;
+    height: 10px;
+    border: 5px solid #BBBBBB;
+    background: #fff;
+    border-radius: 50%;
+    display: block;
+    /*margin-top: 20px;*/
+    z-index: 10;
+    margin: 20px auto 0;
+}
+.ly_do ul li a p{
+    color: #666666;
+    margin-top: 20px;
+}
+/*合作伙伴计划*/
+.ly_partner_plan{
+    padding-top: 40px;
+    box-sizing: border-box;
+}
+.ly_plan_nav {
+    width: 710px;
+    margin-top: 30px;
+}
+.ly_plan_nav li{
+    padding: 0 20px;
+    float: left;
+    border-left: 1px solid black;
+}
+.ly_plan_nav li:nth-of-type(1) a{
+    color: #00c1de;
+}
+.ly_plan_nav li:first-child{
+    border-left: none;
+}
+.ly_plan_nav li a{
+    font: 400 normal 14px '黑体';
+}
+.ly_plan_divs{
+    margin-bottom: 30px;
+}
+.ly_plan_divs li {
+    width: 550px;
+    height: 200px;
+    margin-top: 30px;
+}
+.ly_plan_divs li:nth-child(odd) {
+    float: left;
+}
+.ly_plan_divs li:nth-child(even) {
+    float: right;
+}
+.ly_plan_divs li h3{
+    font: bolder normal 25px '黑体';
+}
+.ly_plan_divs div {
+    width: 550px;
+    height: 200px;
+    border: 1px solid #F0F0F0;
+    padding: 30px;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+.ly_plan_divs li div:hover{
+    box-shadow: 0 2px 15px 0 rgba(0,0,0,.15);
+}
+.ly_plan_divs ul{
+    display: none;
+}
+.ly_plan_divs ul:nth-of-type(1){
+    display: block;
+}
+.ly_plan a{
+    color: #9A9EA0;
+}
+.ly_plan a:hover {
+    color: #33CDE5;
+}
+.ly_plan input{
+    border: 0;
+    width: 100px;
+    height: 30px;
+    margin-top: 20px;
+    text-align: center;
+    line-height: 30px;
+    color: #fff;
+    background: #00c1de;
+}
+.ly_plan p {
+    margin-top: 20px;
+}
+.ly_plan input:nth-of-type(2) {
+    border: 1px solid #33CDE5;
+    background: white;
+    transition: 0.5s;
+    color: #000000;
+}
+.ly_plan input:nth-of-type(2):hover {
+    color: #fff;
+    background: #33CDE5;
+}
+/*培训与认证*/
+.ly_study{
+    height: 780px;
+    background: #F5F5F6;
+}
+.ly_study_plan {
+    padding: 40px 0;
+}
+.ly_study_plan ul {
+    margin-top: 60px;
+}
+.ly_study_plan ul li,
+.ly_news ul li,
+.ly_friend_company ul li{
+    float: left;
+}
+.ly_study_plan ul li div{
+    width: 400px;
+}
+.ly_study_plan .ly_class_title{
+    background: #373D41;
+    color: white;
+    padding: 20px 0;
+    transition: .6s;
+}
+.ly_class{
+    background: white;
+    padding: 12px 46px 24px;
+    box-sizing: border-box;
+}
+.ly_class dt ,.ly_class dd{
+    color: #73777a;
+    cursor: pointer;
+}
+.ly_class dt:hover ,.ly_class dd:hover{
+    color: #00c1de;
+}
+.ly_study_plan ul li div dl:nth-of-type(1){
+    padding-bottom: 15px;
+    border-bottom: 1px solid hsla(0,0%,59%,.4);
+}
+.ly_study_plan ul li div dl:nth-of-type(2){
+    margin-top: 15px;
+}
+.ly_study_plan ul li div dt{
+    color: #33CDE5;
+}
+.ly_study_plan ul li div dd{
+    margin-top: 15px;
+}
+.ly_study_plan ul li{
+    transition: .3s;
+    position: relative;
+}
+.ly_index{
+    z-index: 10;
+}
+.ly_study_plan ul li:nth-of-type(2) {
+    transform: scale(1.08);
+    box-shadow: 0 0 22px rgba(0,0,0,.4);
+}
+.ly_study_plan ul li:nth-of-type(2) .ly_class_title{
+    background: #00c1de;
+}
+/*最新动态*/
+.ly_news{
+    padding-top: 40px;
+    height: 350px;
+}
+.ly_news ul {
+    margin-top: 40px;
+}
+.ly_news ul li {
+    margin: 0 15px 0 15px;
+    border:1px solid #C0D9DC;
+    overflow: hidden;
+    transition: all 1s;
+    cursor: pointer;
+}
+.ly_news ul li:hover{
+    box-shadow: 0 0 15px rgba(186,204,207,.7);
+}
+.ly_news ul li img {
+    transition: all .6s;
+}
+.ly_news ul li img:hover{
+    transform: scale(1.12);
+}
+.ly_news ul li div:nth-of-type(2){
+    padding: 20px 25px;
+}
+/*核心合作伙伴*/
+.ly_best_friend {
+    margin-top: 30px;
+    position: relative;
+}
+.ly_best_friend button{
+    width: 30px;
+    height: 80px;
+    cursor: pointer;
+    text-align: center;
+    line-height: 80px;
+    border: 0;
+    outline: none;
+    position: absolute;
+    top: 75%;
+    transform: translateY(-50%);
+    background: none;
+}
+.ly_best_friend button:nth-of-type(1){
+    left: -40px;
+}
+.ly_best_friend button:nth-of-type(2){
+    right: -20px;
+}
+.ly_best_friend>ul{
+    left: 50%;
+    bottom: -35px;
+    transform: translateX(-50%);
+    position: absolute;
+}
+.ly_best_friend>ul li{
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    overflow: hidden;
+    background: #d7d8d9;
+    margin: 0 5px;
+}
+/*.ly_best_friend>ul li:nth-of-type(1){*/
+    /*background: #00c1de;*/
+/*}*/
+.ly_friend_company {
+    overflow: hidden;
+    position: relative;
+    height: 200px;
+}
+.ly_friend_company ul{
+    height: 144px;
+    margin-top: 50px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    /*transition: left .3s linear;*/
+}
+.ly_friend_company ul li{
+    margin: 0 8px;
+}
+.ly_friend_company ul li>div{
+    width: 250px;
+    height: 110px;
+    text-align: center;
+    padding: 16px;
+    border:1px solid #D7D8D9;
+    box-shadow: 0 2px 15px 0 rgba(0,0,0,.15);
+}
+.ly_friend_company ul li:hover .ly_friend_show{
+    display: none;
+}
+.ly_friend_company ul li:hover .ly_friend_none{
+    display: block;
+}
+.ly_friend_show{
+    display: block;
+}
+.ly_friend_none {
+    display: none;
+}
+.ly_friend_none img{
+    display: inline-block;
+    margin-right: 5px;
+    position: relative;
+    width: 13px;
+    float: left;
+    margin-top: 5px;
+}
+.ly_friend_none h5{
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 14px;
+    color: #333;
+    font-weight: 700;
+    text-align: center;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.ly_friend_none p {
+    padding-left: 25px;
+    line-height: 2;
+    font-size: 12px;
+    color: #373d41;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.ly_friend_none  p span {
+    float: left;
+}
+.ly_friend_none .ly_grade_content{
+    color: #73777a;
+}
