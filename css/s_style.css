@@ -27,13 +27,13 @@ body a:hover {
 /* 背景图片部分 */
 .s_header {
     background: url(../images/srj_images/1.jpg) no-repeat 0 -90px;
-    background-size: cover;
+    background-size: 100%;
     height: 466px;
     transition: all 1s;
     position: relative;
 }
 .s_header:hover {
-    background-position: 0 -100px;
+    background-size: 101%;
 }
 /* 安全部分 */
 .s_cont h1 {
@@ -156,11 +156,11 @@ body a:hover {
 .s_use {
     background: url(../images/srj_images/2.png) no-repeat 0 0;
     background-size: 100%;
-    height: 692px;
+    height: 668px;
     transition: all 1s;
 }
 .s_use:hover {
-    background-position-y: -10px;
+    background-size: 101%;
 }
 /* 左边 */
 .s_use .s_left {
